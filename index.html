@@ -18,14 +18,17 @@
         <div id="inputs">
           <div>
             <label for="input1">Word 1: </label>
-            <input class="input" id="input1" type="text" name="input1" />
+            <input class="input" id="input1" type="text" name="input1" required/>
           </div>
         </div>
 
         <button class="add" onclick="addOption()">+add word</button>
 
-        <button class="submit" name="submit" type="submit">Submit</button>
+        <button class="submit" name="submit" type="submit" >Submit</button>
       </form>
+
+      <div class="answer" id="answer" style="font-size: 18px;font-weight: 300;">
+      </div>
     </div>
 
     <script src="script.js"></script>

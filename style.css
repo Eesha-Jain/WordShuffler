@@ -33,7 +33,7 @@ label {
   margin: 0;
 }
 
-#form {
+form, .answer {
   padding: 20px;
   width: 90%;
   margin-top: 0;
