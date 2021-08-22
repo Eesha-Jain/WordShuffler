@@ -5,8 +5,29 @@
     <meta name="viewport" content="width=device-width">
     <title>Word Shuffler</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="images/shuffler.png" rel="icon" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
   </head>
   <body>
+    <div class="container">
+      <h1 class="title">Word Shuffler<h1>
+      <form id="form">
+        <div id="inputs">
+          <div>
+            <label for="input1">Word 1: </label>
+            <input class="input" id="input1" type="text" name="input1" />
+          </div>
+        </div>
+
+        <button class="add" onclick="addOption()">+add word</button>
+
+        <button class="submit" name="submit" type="submit">Submit</button>
+      </form>
+    </div>
+
     <script src="script.js"></script>
   </body>
 </html>
